@@ -13,6 +13,11 @@ Beim Kompiliervorgang werden die Kapitel automatisch in das Dokument eingefügt.
 Die für das Literaturverzeichnis verwendete Bibliothek ist [BibLaTeX](https://ctan.org/pkg/biblatex?lang=en). Ein empfehlenswertes Quick-Start-Tutorial findet sich [hier](https://en.wikibooks.org/wiki/LaTeX/Bibliographies_with_biblatex_and_biber).
 
 ### Erzeugung des Dokuments
+### Kompilieren mit latexmk
+```bash
+latexmk -lualatex -shell-escape Arbeit
+```
+
 #### Windows Subsystem for Linux
 Das LaTeX-Dokument kann mit Hilfe von `Kompilieren.sh` erzeugt werden.
 ```bash
