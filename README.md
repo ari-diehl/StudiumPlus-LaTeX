@@ -5,8 +5,8 @@ Verbesserungsvorschläge und Ergänzungen sind jederzeit ausdrücklich erwünsch
 
 ## Anleitung
 ### Schreibprozess
-Für jedes Kapitel muss eine eigene TeX-Datei im Verzeichnis [Textteil](https://github.com/ari-diehl/StudiumPlus-LaTeX/tree/main/Textteil) angelegt werden.
-Die Kapitel sind gemäß folgendem Format zu benennen: Kapitel-\<Nummer (zweistellig, mit Null auffüllen)\>.
+Für jedes Kapitel muss eine eigene LaTeX-Datei im Verzeichnis [Textteil](https://github.com/ari-diehl/StudiumPlus-LaTeX/tree/main/Textteil) angelegt werden.
+Die Dateien sind gemäß folgendem Format zu benennen: Kapitel-\<Nummer (zweistellig, mit Null auffüllen)\>.tex.
 Beim Kompiliervorgang werden die Kapitel automatisch in das Dokument eingefügt.
 ### Erzeugung des Dokuments
 #### Windows Subsystem for Linux
