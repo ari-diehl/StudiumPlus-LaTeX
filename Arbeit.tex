@@ -126,8 +126,15 @@ Thema:\\
 % Seitennummerierung mit großen römischen Zahlen
 \pagenumbering{Roman}
 
+% Zählvariable für die mit römischen Zahlen nummerierten Seiten
+\newcounter{Römisch}
+\setcounter{Römisch}{1}
+
+
 % Inhaltsverzeichnis
 \tableofcontents
+
+\stepcounter{Römisch}
 
 \clearpage
 
@@ -139,15 +146,21 @@ Thema:\\
     toctitle=Abkürzungsverzeichnis
 ]
 
+\stepcounter{Römisch}
+
 \clearpage
 
 % Abbildungsverzeichnis
 \listoffigures
 
+\stepcounter{Römisch}
+
 \clearpage
 
 % Tabellenverzeichnis
 \listoftables
+
+\stepcounter{Römisch}
 
 \clearpage
 
@@ -168,7 +181,7 @@ Thema:\\
 \pagenumbering{Roman}
 
 % Seitenzahl festlegen
-\setcounter{page}{5}
+\setcounter{page}{\value{Römisch}}
 
 % Literaturverzeichnis
 \printbibliography[
