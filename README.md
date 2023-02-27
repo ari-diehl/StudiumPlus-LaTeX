@@ -1,0 +1,1 @@
+# LaTeX-Vorlage für die THM
