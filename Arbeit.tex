@@ -110,19 +110,26 @@ Thema:\\
 % Angaben zum Studenten und des Unternehmens
 \begin{FlushLeft}
     \begin{tabularx}{\textwidth}{@{}l@{\hspace{2.5cm}}X@{}}
-        Vorgelegt von:             & \NameStudent{}       \\
-                                   & \StraßeStudent{}     \\
-                                   & \OrtStudent{}        \\
-        Matrikelnummer:            & \Matrikelnummer{}    \\[1.5cm]
-        Eingereicht bei                                   \\
-        Hochschulbetreuer:         & \Hochschulbetreuer{} \\
-        Fachbetreuer:              & \Fachbetreuer{}      \\[1.5cm]
-        \UnternehmenOderBehörde{}: & \Unternehmen{}       \\
+        Vorgelegt von:             & \NameStudent{}                        \\
+                                   & \StraßeStudent{} \HausnummerStudent{} \\
+                                   & \PLZStudent{} \OrtStudent{}           \\
+        Matrikelnummer:            & \Matrikelnummer{}                     \\[1.5cm]
+        Eingereicht bei                                                    \\
+        Hochschulbetreuer:         & \Hochschulbetreuer{}                  \\
+        Fachbetreuer:              & \Fachbetreuer{}                       \\[1.5cm]
+        \UnternehmenOderBehörde{}: & \Unternehmen{}                        \\
         Eingereicht am:            & \DatumEinreichung{}
     \end{tabularx}
 \end{FlushLeft}
 
 \clearpage
+
+% Sperrvermerk
+\IfFileExists{Sonstige-Bestandteile/Sperrvermerk}{
+    \input{Sonstige-Bestandteile/Sperrvermerk}
+
+    \clearpage
+}{}
 
 % Seitennummerierung mit großen römischen Zahlen
 \pagenumbering{Roman}
@@ -189,4 +196,10 @@ Thema:\\
     heading=bibintoc
 ]
 
+% Versicherung
+\clearpage
+
+\pagenumbering{gobble}
+
+\input{Sonstige-Bestandteile/Versicherung}
 \end{document}
