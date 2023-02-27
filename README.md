@@ -17,10 +17,3 @@ Die für das Literaturverzeichnis verwendete Bibliothek ist [BibLaTeX](https://c
 ```bash
 latexmk -lualatex -shell-escape Arbeit
 ```
-
-#### Windows Subsystem for Linux
-Das LaTeX-Dokument kann mit Hilfe von `Kompilieren.sh` erzeugt werden.
-```bash
-chmod u+x Kompilieren.sh
-./Kompilieren.sh
-```
