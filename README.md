@@ -6,7 +6,7 @@ Verbesserungsvorschläge und Ergänzungen sind jederzeit ausdrücklich erwünsch
 ## Anleitung
 ### Schreibprozess
 Für jedes Kapitel muss eine eigene LaTeX-Datei im Verzeichnis `Textteil` angelegt werden.
-Die Dateien sind gemäß folgendem Format zu benennen: `Kapitel-\<Nummer (zweistellig, mit Null auffüllen)\>.tex`.
+Die Dateien sind gemäß folgendem Format zu benennen: `Kapitel-<Nummer (zweistellig, mit Null auffüllen)>.tex`.
 Beim Kompiliervorgang werden die Kapitel automatisch in das Dokument eingefügt.
 
 ### Eintragungen im Literaturverzeichnis
