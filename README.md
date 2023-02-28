@@ -48,6 +48,11 @@ Im Verzeichnis `Sonstige-Bestandteile` sind u. a. optionale Elemente (z. B. ein 
 Bei Nichtgebrauch sind diese Dateien zu löschen, da sie ansonsten automatisch in die Arbeit eingefügt werden.
 
 ### Erzeugung des Dokuments
+#### Overleaf
+[Overleaf](https://www.overleaf.com/) ist ein webbasierter LaTeX-Editor.
+
+Neues Projekt :arrow_right: Projekt als ZIP hochladen (GitHub-Repository herunterladen) :arrow_right: Menu :arrow_right: Als Kompiler "LuaLaTeX" auswählen
+#### Lokal via Kommandozeile (z. B. in Linux)
 :warning: Die Vorlage hat diverse Abhängigkeiten, die zunächst installiert werden müssen:
 - [Inkscape](https://inkscape.org/) (für das Einbetten von SVGs)
 - [Pygments](https://pygments.org/) (für das Syntax-Highlighting)
