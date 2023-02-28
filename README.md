@@ -20,7 +20,7 @@ Die Eintragung verwendeter Abkürzungen erfolgt in `Abkürzungen.tex`.
 ### Literatur
 Die für das Literaturverzeichnis verwendete Bibliothek ist [BibLaTeX](https://ctan.org/pkg/biblatex?lang=en).
 
-Ein empfehlenswertes Quick-Start-Tutorial findet sich [hier](https://en.wikibooks.org/wiki/LaTeX/Bibliographies_with_biblatex_and_biber).
+Ein empfehlenswertes Quick-Start-Tutorial zu diesem Paket findet sich [hier](https://en.wikibooks.org/wiki/LaTeX/Bibliographies_with_biblatex_and_biber).
 
 In der Arbeit verwendete Literatur wird in `Literatur.bib` eingetragen.
 
