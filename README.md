@@ -53,10 +53,11 @@ Bei Nichtgebrauch sind diese Dateien zu löschen, da sie ansonsten automatisch i
 
 Die Vorlage kann darin folgendermaßen genutzt werden:
 
-1. Repository als ZIP-Datei herunterladen
-2. Neues Projekt in Overleaf erstellen
-3. ZIP-Datei hochladen
-4. Als Compiler "LuaLaTeX" auswählen
+1. Neues Projekt
+2. Projekt hochladen
+3. Repository-ZIP-Datei auswählen
+4. Menü
+5. In den Einstellungen als Compiler "LuaLaTeX" auswählen
 
 #### Lokal via Kommandozeile (z. B. in Linux)
 :warning: Die Vorlage hat diverse Abhängigkeiten, die zunächst installiert werden müssen:
