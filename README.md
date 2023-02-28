@@ -1,6 +1,6 @@
 # LaTeX-Vorlage für wissenschaftliche Arbeiten bei StudiumPlus
 :exclamation: Disclaimer: Das Repository ist als Work in progress zu betrachten.
-Eine finale Version liegt noch nicht vor.
+Eine finale Version liegt gegenwärtig nicht vor.
 
 Die vorliegende LaTeX-Vorlage orientiert sich an der [Richtlinie Wissenschaftliches Arbeiten](https://studiumplus.de/wp-content/uploads/2022/12/Richtlinie_Wiss-Arbeiten.pdf) vom Stand Oktober 2022.
 
