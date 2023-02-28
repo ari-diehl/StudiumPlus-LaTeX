@@ -17,6 +17,21 @@ Metadaten (wie beispielsweise der Name des Studenten) werden in `Metadaten.tex` 
 ### Abkürzungen
 Die Eintragung verwendeter Abkürzungen erfolgt in `Abkürzungen.tex`.
 
+### Bilder
+Bilder werden im Verzeichnis `Bilder` abgelegt.
+
+In den LaTeX-Dokumenten der Arbeit ist beim Einfügen lediglich der Name des Bildes anzugeben.
+
+Richtig:
+```latex
+\includegraphics{Beispielbild.jpg}
+```
+
+Falsch:
+```latex
+\includegraphics{Bilder/Beispielbild.jpg}
+```
+
 ### Literatur
 Die für das Literaturverzeichnis verwendete Bibliothek ist [BibLaTeX](https://ctan.org/pkg/biblatex?lang=en).
 
