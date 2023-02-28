@@ -48,7 +48,7 @@ Im Verzeichnis `Sonstige-Bestandteile` sind u. a. optionale Elemente (z. B. ein 
 Bei Nichtgebrauch sind diese Dateien zu löschen, da sie ansonsten automatisch in die Arbeit eingefügt werden.
 
 ### Erzeugung des Dokuments
-#### Overleaf
+#### Overleaf (empfohlen)
 [Overleaf](https://www.overleaf.com/) ist ein webbasierter LaTeX-Editor.
 
 Die Vorlage kann darin folgendermaßen genutzt werden:
