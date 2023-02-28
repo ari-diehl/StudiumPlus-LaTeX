@@ -51,7 +51,13 @@ Bei Nichtgebrauch sind diese Dateien zu löschen, da sie ansonsten automatisch i
 #### Overleaf
 [Overleaf](https://www.overleaf.com/) ist ein webbasierter LaTeX-Editor.
 
-Neues Projekt :arrow_right: Projekt als ZIP hochladen (GitHub-Repository herunterladen) :arrow_right: Menu :arrow_right: Als Kompiler "LuaLaTeX" auswählen
+Die Vorlage kann darin folgendermaßen genutzt werden:
+
+1. Repository als ZIP-Datei herunterladen
+2. Neues Projekt in Overleaf erstellen
+3. ZIP-Datei hochladen
+4. Als Compiler "LuaLaTeX" auswählen
+
 #### Lokal via Kommandozeile (z. B. in Linux)
 :warning: Die Vorlage hat diverse Abhängigkeiten, die zunächst installiert werden müssen:
 - [Inkscape](https://inkscape.org/) (für das Einbetten von SVGs)
