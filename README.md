@@ -22,6 +22,7 @@ Die Eintragung verwendeter Abkürzungen erfolgt in `Abkürzungen.tex`.
 
 ### Bilder
 Grafikressourcen werden im Verzeichnis `Bilder` abgelegt.
+
 Bei der Angabe von Bildpfaden ist dieses auszusparen, da es bereits als Ablageort konfiguriert wurde.
 
 Richtig:
