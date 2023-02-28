@@ -42,7 +42,7 @@ In der Arbeit verwendete Literatur wird in `Literatur.bib` eingetragen.
 ### Sonstige Bestandteile
 Im Verzeichnis `Sonstige-Bestandteile` sind u. a. optionale Elemente (z. B. ein Sperrvermerk) aufgeführt.
 
-Bei Nichtgebrauch sind diese zu löschen, da sie ansonsten automatisch in die Arbeit eingefügt werden.
+Bei Nichtgebrauch sind diese Dateien zu löschen, da sie ansonsten automatisch in die Arbeit eingefügt werden.
 
 ### Erzeugung des Dokuments
 Die PDF-Datei kann beispielsweise mit dem Perl-Skript [latexmk](https://ctan.org/pkg/latexmk/?lang=en) wie folgt erstellt werden:
