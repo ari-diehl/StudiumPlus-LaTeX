@@ -22,6 +22,17 @@ Die Eintragung verwendeter Abkürzungen erfolgt in `Abkürzungen.tex`.
 
 ### Bilder
 Grafikressourcen werden im Verzeichnis `Bilder` abgelegt.
+Bei der Angabe von Bildpfaden ist dieses auszusparen, da es bereits als Ablageort konfiguriert wurde.
+
+Richtig:
+```latex
+\includegraphics{Beispielbild.jpg}
+```
+
+Falsch:
+```latex
+\includegraphics{Bilder/Beispielbild.jpg}
+```
 
 ### Literatur
 Die für das Literaturverzeichnis verwendete Bibliothek ist [BibLaTeX](https://ctan.org/pkg/biblatex?lang=en).
