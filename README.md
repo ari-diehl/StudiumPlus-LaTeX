@@ -2,7 +2,7 @@
 :exclamation: Disclaimer: Das Repository ist als Work in progress zu betrachten.
 Eine finale Version liegt gegenwärtig nicht vor.
 
-Die vorliegende LaTeX-Vorlage orientiert sich an der [Richtlinie Wissenschaftliches Arbeiten](https://studiumplus.de/wp-content/uploads/2022/12/Richtlinie_Wiss-Arbeiten.pdf) vom Stand Oktober 2022.
+Die LaTeX-Vorlage berücksichtigt die [Richtlinie Wissenschaftliches Arbeiten](https://studiumplus.de/wp-content/uploads/2022/12/Richtlinie_Wiss-Arbeiten.pdf) vom Stand Oktober 2022.
 
 Verbesserungsvorschläge und Ergänzungen sind jederzeit ausdrücklich erwünscht.
 
