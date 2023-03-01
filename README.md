@@ -10,7 +10,7 @@ Verbesserungsvorschläge und Ergänzungen sind jederzeit ausdrücklich erwünsch
 ### Anmerkung
 Die Vorlage ist so konzipiert, dass möglichst wenige LaTeX-Kenntnisse von Nöten sind.
 
-Vieles kann den vorhandenen Beispielkapiteln entnommen werden (z. B. wie man Bilder einfügt).
+Vieles kann den vorhandenen Beispielkapiteln entnommen werden (z. B. wie Bilder einfügt werden).
 
 Nichtsdestotrotz ist es ratsam, ein Quick-Start-Tutorial zu LaTeX wie [dieses](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) zu absolvieren.
 
