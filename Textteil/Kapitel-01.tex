@@ -1,12 +1,20 @@
-% Beispielkapitel
+% Beispielkapitel mit einem Bild
 
+% Kapitelüberschrift
 \section{Einleitung}
+% Unterkapitelüberschrift
 \subsection{\Unternehmen{}}
+% Einfügen von Abkürzungen und Zitieren
 Das Unternehmen \Unternehmen{} fertigt Beispielprodukte, \acrshort{zb} Beispielprodukt A \cite{ctan}.
 
 % Einfügen eines Bildes
+% Tutorial zum Einfügen von Bildern in LaTeX:
+% https://www.overleaf.com/learn/latex/Inserting_Images
 \begin{figure}[!h]
+    % Zentriert das Bild
     \centering
-    \includegraphics[width=\textwidth]{Beispielbild.jpg}
+    % Die Breite kann mit dem optionalen Parameter "width" angegeben werden
+    \includegraphics[width=.5\textwidth]{Beispielbild.jpg}
+    % Bei Bildern ist die Beschriftung unterhalb des Bildes anzugeben
     \caption{Beispielbild}
 \end{figure}
