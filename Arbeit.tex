@@ -39,6 +39,7 @@
 \usepackage{float}
 \usepackage{tikz}
 \usepackage{tabularx}
+\usepackage{caption} 
 
 % Variableneinbindung
 \input{Metadaten}
@@ -51,6 +52,9 @@
 
 % Abkürzungsverzeichnis
 \makeglossaries
+
+% Abstände der Tabellenbeschriftungen anpassen
+\captionsetup[table]{skip=10pt}
 
 % Einrückungen im Abbildungs- und Tabellenverzeichnis verhindern
 \renewcommand\cftfigindent{0pt}
