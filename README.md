@@ -8,7 +8,7 @@ Verbesserungsvorschläge und Ergänzungen sind jederzeit ausdrücklich erwünsch
 
 ## Anleitung
 ### Anmerkung
-Die Vorlage ist so konzipiert, dass möglichst wenig LaTeX-Kenntnisse von Nöten sind.
+Die Vorlage ist so konzipiert, dass möglichst wenige LaTeX-Kenntnisse von Nöten sind.
 
 Vieles kann den vorhandenen Beispielkapiteln entnommen werden (z. B. wie man Bilder einfügt).
 
