@@ -3,15 +3,17 @@
 Eine finale Version liegt gegenwärtig nicht vor.
 
 Die LaTeX-Vorlage berücksichtigt die [Richtlinie Wissenschaftliches Arbeiten](https://studiumplus.de/wp-content/uploads/2022/12/Richtlinie_Wiss-Arbeiten.pdf) vom Stand Oktober 2022.
-
 Verbesserungsvorschläge und Ergänzungen sind jederzeit ausdrücklich erwünscht.
 
 ## Anleitung
+### Anmerkung
+Die Vorlage ist so konzipiert, dass möglichst wenig LaTeX-Kenntnisse von Nöten sind.
+Vieles kann den vorhandenen Beispielkapiteln entnommen werden (z. B. wie man Bilder einfügt).
+Nichtsdestotrotz ist es ratsam, ein Quick-Start-Tutorial zu LaTeX wie [dieses](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) zu absolvieren.
+
 ### Schreibprozess
 Für jedes Kapitel muss eine eigene LaTeX-Datei im Verzeichnis `Textteil` angelegt werden.
-
 Die Dateien sind gemäß folgendem Format zu benennen: `Kapitel-<Nummer (zweistellig, ggf. mit Null auffüllen)>.tex`.
-
 Beim Erzeugungsvorgang werden die Kapitel automatisch in das Dokument eingefügt.
 
 ### Metadaten
@@ -22,14 +24,12 @@ Die Eintragung verwendeter Abkürzungen erfolgt in `Abkürzungen.tex`.
 
 ### Bilder
 Grafikressourcen werden im Verzeichnis `Bilder` abgelegt.
-
 Bei der Angabe von Bildpfaden ist dieses auszusparen, da es bereits als Ablageort konfiguriert wurde.
 
 Richtig:
 ```latex
 \includegraphics{Beispielbild.jpg}
 ```
-
 Falsch:
 ```latex
 \includegraphics{Bilder/Beispielbild.jpg}
@@ -37,22 +37,17 @@ Falsch:
 
 ### Literatur
 Die für das Literaturverzeichnis verwendete Bibliothek ist [BibLaTeX](https://ctan.org/pkg/biblatex?lang=en).
-
 Ein empfehlenswertes Quick-Start-Tutorial zu diesem Paket findet sich [hier](https://en.wikibooks.org/wiki/LaTeX/Bibliographies_with_biblatex_and_biber).
-
 In der Arbeit verwendete Literatur wird in `Literatur.bib` eingetragen.
 
 ### Sonstige Bestandteile
 Im Verzeichnis `Sonstige-Bestandteile` sind u. a. optionale Elemente (z. B. ein Sperrvermerk) aufgeführt.
-
 Bei Nichtgebrauch sind diese Dateien zu löschen, da sie ansonsten automatisch in die Arbeit eingefügt werden.
 
 ### Erzeugung des Dokuments
 #### Overleaf (empfohlen)
 [Overleaf](https://www.overleaf.com/) ist ein webbasierter LaTeX-Editor.
-
 Die Vorlage kann darin folgendermaßen genutzt werden:
-
 1. Neues Projekt
 2. Projekt hochladen
 3. Repository-ZIP-Datei auswählen
