@@ -1,0 +1,23 @@
+% Beispielkapitel mit einer Tabelle
+
+\section{Fertigungsprozess}
+Beim Fertigungsprozess wird Strom benötigt.
+
+% Einfügen einer Tabelle
+% Tutorial zum Einfügen von Tabellen in LaTeX:
+% https://en.wikibooks.org/wiki/LaTeX/Tables
+\begin{table}[!h]
+    \begin{center}
+        % Die Beschriftung ist überhalb der Tabelle anzugeben
+        \caption{Beispieltabelle}
+        \begin{tabularx}{\textwidth}{|X|X|}
+            \hline
+            A & B \\
+            \hline
+            C & D \\
+            \hline
+            E & F \\
+            \hline
+        \end{tabularx}
+    \end{center}
+\end{table}
